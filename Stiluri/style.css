@@ -1,0 +1,248 @@
+#logo img {
+	width: 2.2em;
+	height: auto;
+	float: left;
+	position:absolute;
+	top: 0em;
+	left: 0em;
+	bottom: 6em;
+}
+
+#subsol {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+	text-align: center;
+	width: 100%;
+}
+
+#img_cont {
+	text-align: center;
+}
+
+#img_cont img {
+	width: 60%;
+	height: auto;
+}
+
+a {
+	color: #CD853F;
+}
+
+#cafea {
+	background-image: url('../imagini/c1.jpg');
+	background-size: cover;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+
+#ceai {
+	background-image: url('../imagini/t5.png');
+	background-size: cover;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+
+#meniu {
+	background: rgba(205, 133, 63, 0.3);
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+
+.buton {
+	color: white;
+	font-size: 0.85em;
+	padding: 0.1em;
+	text-decoration: none;
+	transition: all 1s;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+}
+
+.buton:hover {
+	background-color: #795548;
+}
+
+main {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+body {
+	background-attachment: fixed;
+	background-image: url('../imagini/b1.jpg');
+	background-size: cover;
+	margin: 0;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 1.8em;
+	color: white;
+}
+
+h1 {
+	font-size: 3.5em;
+	font-family: 'Kaushan Script', cursive;
+}
+
+h2 {
+	font-size: 2.7em;
+	color: #D2B48C;
+}
+
+h3 {
+	color: #D2B48C;
+}
+
+h4 {
+	color: #D2B48C;
+}
+
+nav {
+	background-color: #8D6E63;
+	box-shadow: 0 0.4em 0.4em #444444;
+	position: fixed;
+	text-align: left;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+nav>ul {
+	list-style: none;
+	margin: 0.2em;
+}
+
+nav>ul>li {
+	display: inline-block;
+	margin: 0 0.4em;
+}
+
+section {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+	text-align: center;
+	width: 100%;
+}
+
+#calorii {
+	font-weight: 900;
+}
+
+table {
+	background-color: rgba(255, 255, 255, 0.3);
+	border: dashed 0.1em #000000;
+	margin-left: 35%;
+}
+
+td {
+	border: dashed 0.1em #000000;
+	padding: 10%;
+}
+
+tr {
+	border: dashed 0.1em #000000;
+}
+
+.imagine-rotunda {
+	transition: -webkit-border-radius 1s, -moz-border-radius 1s, -o-border-radius 1s;
+	width: 22.5%;
+	height: auto;
+}
+
+.imagine-rotunda:hover {
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	-o-border-radius: 150px;
+}
+
+iframe {
+	width: 50%;
+	height: 70vh;
+}
+
+@media screen and (max-width: 1024px) {
+	#start {
+		font-size: 0.4em;
+	}
+	main {
+		font-size: 1.6em;
+	}
+	footer {
+		font-size: 1.6em;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	main {
+		font-size: 1.3em;
+	}
+	footer {
+		font-size: 1.3em;
+	}
+}
+
+
+@media screen and (max-width: 650px) {
+	main {
+		font-size: 1.05em;
+	}
+	footer {
+		font-size: 1.05em;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	main {
+		font-size: 0.7em;
+	}
+	footer {
+		font-size: 0.7em;
+	}
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: #A0522D;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	font-size: 0.8em;
+	font-weight: 900;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+	padding-left: 0em;
+}
+
+@media print {
+	body {
+	font-family: cursive;
+	color: red!important;
+	}
+}
